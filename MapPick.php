@@ -25,7 +25,7 @@
   * ]);?>
   */
   
-namespace nkizza\mappick;
+namespace gromovfjodor\mappick;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
