@@ -168,9 +168,9 @@ class MapPick extends Widget
 			}				
 		';
 		$id = $this->options['id'];
-		$lat = (!empty($this->attributes['lat']['value'])) ? $this->attributes['lat']['value'] : 0;
-		$lon = (!empty($this->attributes['lon']['value'])) ? $this->attributes['lon']['value'] : 0;
-		$zoom = (!empty($this->attributes['zoom']['value'])) ? $this->attributes['zoom']['value'] : 0; 
+		$lat = (!empty($this->attributes['lat']['value'])) ? $this->attributes['lat']['value'] : 44.894965;
+		$lon = (!empty($this->attributes['lon']['value'])) ? $this->attributes['lon']['value'] : 37.316170;
+		$zoom = (!empty($this->attributes['zoom']['value'])) ? $this->attributes['zoom']['value'] : 7;
 		
 		return str_replace(
 			["[%ID%]", "[%LAT%]", "[%LON%]", "[%ZOOM%]"], 
